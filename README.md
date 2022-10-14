@@ -1,5 +1,7 @@
 # LDRS-Onboarding
 
+# Computer Setup
+
 ## Install WSL
 1. Run Ubuntu Application on windows to setup your UNIX account
 2. Create username and password
@@ -7,18 +9,26 @@
 ## Install Terminal Application
 Add Ubuntu as the deafault terminal window
 
-## Update linux Kernel
-`sudo apt-get update && sudo apt-get upgrade -y` 
-
 ## Install Text Editor
 The default text editor is VSCode. If you want to use something else let me know.
 
-## Recomended Extensions
+## Extensions for VsCode
 1. Instal WSL Extension from Microsoft
 2. Install GitHub Repositories Extension from Microsoft
 3. Install Remote Repositories Extension from Microsoft
 
+### Frontend Extensions
+1. Prettier
+2. ES Lint
+3. Prettier ES Lint
+
+### Backend Extensions
+1. Python
+
 # Installing in Terminal
+
+## Update Linux Kernel
+`sudo apt-get update && sudo apt-get upgrade -y` 
 
 ## Install git if it is not installed
 `sudo apt install git`
@@ -75,26 +85,26 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 ## Customize Zsh
 `code ~/.zshrc`
 
-## Change in the config file the theme
+### Change in the config file the theme
 ZSH_THEME="random" to try out random themes until you find one you like
 
-## I personally use
+### I personally use
 ZSH_THEME="xiong-chiamiov-plus"
 
-## Add nvm to zsh
-**Important**
+### Add nvm to zsh
+**Important** <br>
 plugins=(git nvm)
 
-## Change the path in the terminal 
+### Change the path in the terminal 
 `code ~/.bashrc`
 
-## Change in the config file 
+### Change in the config file 
 At the bottom of the file add
 export PS1=
 
 and chose how you want to display the path. Only add one line.
 
-## Some examples:
+### Some examples:
 - export PS1="\w$ " # full working dir
 - export PS1="\W$ " # basename of working dir
 - export PS1="\u@\W $ " # username @ working dir
@@ -108,7 +118,7 @@ and chose how you want to display the path. Only add one line.
 - \T time 12-hour HH:MM:SS
 - \@ time 12-hour am/pm
 
-## I personally use
+### I personally use
 export PS1="[\t] \u@\W $ " #timestamp + username @ working dir
 
 Save the setting and close the terminal and open a new instance.
