@@ -2,6 +2,10 @@
 
 # Computer Setup
 
+## Access
+1. Github Repo
+2. Railway Application
+
 ## Install WSL
 1. Run Ubuntu Application on windows to setup your UNIX account
 2. Create username and password
