@@ -21,14 +21,17 @@ The default text editor is VSCode. If you want to use something else let me know
 2. Install GitHub Repositories Extension from Microsoft
 3. Install Remote Repositories Extension from Microsoft
 4. Github Pull Requests and Issues
+5. Gitlens - Git supercharged
 
 ### Frontend Extensions
 1. Prettier
 2. ES Lint
 3. Prettier ES Lint
+4. ES7 +React/Redux/React-Native snippets
 
 ### Backend Extensions
 1. Python
+2. Django
 
 # Installing in Terminal
 
