@@ -20,6 +20,7 @@ The default text editor is VSCode. If you want to use something else let me know
 1. Instal WSL Extension from Microsoft
 2. Install GitHub Repositories Extension from Microsoft
 3. Install Remote Repositories Extension from Microsoft
+4. Github Pull Requests and Issues
 
 ### Frontend Extensions
 1. Prettier
