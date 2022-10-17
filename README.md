@@ -132,6 +132,6 @@ Save the setting and close the terminal and open a new instance.
 1. Open the terminal
 2. mkdir LDRS
 3. cd LDRS
-4. `gh repo clone ldrsInvestmentsAdmin/LDRS-EAOS' To clone repo locally
-5. cd LDRS-EAOS
+4. `gh repo clone ldrsInvestmentsAdmin/EAOS' To clone repo locally
+5. cd EAOS
 6. `code .` to open vsCode in the folder
