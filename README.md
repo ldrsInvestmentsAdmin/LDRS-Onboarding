@@ -2,16 +2,23 @@
 
 # Computer Setup
 
-## Access
+## Get Access for 
 1. Github Repo
 2. Railway Application
+3. Slack
+4. Trello
 
 ## Install WSL
-1. Run Ubuntu Application on windows to setup your UNIX account
-2. Create username and password
+1. Run Ubuntu Application on windows to setup your UNIX account (If it does not run by default on computer restart)
+2. Create username and password for your ubunutu root user. This is different then the windows login or LDRS login.
 
 ## Install Terminal Application
-Add Ubuntu as the deafault terminal window
+1.Install Windows Terminal from [microsoft store](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-ca&gl=ca)
+2. Add Ubuntu as the default terminal window
+   - Press the down arrow at the top of the terminal. ("\/")
+   - Settings
+   - Change Default Profile to Ubuntu
+   - Hit Save and close and reopen windows terminal
 
 ## Install Text Editor
 The default text editor is VSCode. If you want to use something else let me know.
@@ -90,7 +97,7 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 1. `sudo apt install zsh -y` - 
 2. `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
-## Customize Zsh
+## Customize Zsh (Optional)
 `code ~/.zshrc`
 
 ### Change in the config file the theme
@@ -100,8 +107,12 @@ ZSH_THEME="random" to try out random themes until you find one you like
 ZSH_THEME="xiong-chiamiov-plus"
 
 ### Add nvm to zsh
-**Important** <br>
+**Important - Not Optional if using zsh** <br>
 plugins=(git nvm)
+
+### Access WSL Files on Windows
+In windows File explorer add to quick access to be able to access wsl files on windows.
+Path : \\wsl$\Ubuntu\home\user
 
 ### Change the path in the terminal 
 `code ~/.bashrc`
