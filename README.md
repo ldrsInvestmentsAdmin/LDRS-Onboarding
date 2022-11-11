@@ -23,6 +23,12 @@ Path : \\wsl$\Ubuntu\home\user
    - Change Default Profile to Ubuntu
    - Hit Save and close and reopen windows terminal
 
+## Make sure WSL is on version 2
+
+- In command Prompt (user)
+- run `Wsl -l -v`
+- If running WSL 1 update to WSL 2
+
 ## Install Text Editor
 The default text editor is VSCode. If you want to use something else let me know.
 
