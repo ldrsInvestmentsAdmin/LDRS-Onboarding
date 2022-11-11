@@ -12,7 +12,7 @@
 1. Run Ubuntu Application on windows to setup your UNIX account (If it does not run by default on computer restart)<br>
 2. Create username and password for your ubunutu root user. This is different then the windows login or LDRS login.
 
-##In windows File explorer add to quick access 
+## In windows File explorer add to quick access 
 Path : \\wsl$\Ubuntu\home\user
 
 ## Install Terminal Application
