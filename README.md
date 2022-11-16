@@ -3,6 +3,7 @@
 # First Steps
 1. Log into LDRS Email
 2. Interns connect laptop to wifi and login with their LDRS email.
+3. Switch over to google meet on work computer to make sure camera/microphone are working and so screens can be shared if needed.
 
 # Computer Setup
 
