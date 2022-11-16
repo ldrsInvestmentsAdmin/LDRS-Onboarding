@@ -3,7 +3,6 @@
 # First Steps
 1. Log into LDRS Email
 2. Interns connect laptop to wifi and login with their LDRS email.
-3. 
 
 # Computer Setup
 
